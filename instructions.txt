@@ -21,6 +21,7 @@ Adding Information
 We're also going to encapsulte each item, and some of its information, using DIV tags. Lets create the first item using DIV tags and an H3 tag to specify the position title.
 2.	Below the position title lets use the I tag to specify the company name.
 3.	Now below the company name, lets add the employment dates without any tags.
-	a.	As you can see the dates and company name ended up on the same line! Let's enclose the position title and company name in saingle DIV tag, and then the employment dates in another DIV tag to split them up.
+	a.	As you can see the dates and company name ended up on the same line! Let's enclose the company name in single DIV tag, and then the employment dates in another DIV tag to split them up. Leave the H3 tags as is.
 4.	Good, now we've got most of it put together. Lets us a UL tag to create a list and add 2-3 items to the list using the LI tags. Enter something you did at this job after each LI tag.
+	a.	Enclose the UL tags in DIV tags as well for future changes.
 5.	Great! We have our first piece of experience. Add one or two more, then add some education experience (substitute position for degree/diploma/certificate and company name for institution name).
