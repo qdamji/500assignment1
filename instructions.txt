@@ -1,0 +1,25 @@
+Structuring the Sections
+
+1.	Create the DOCTYPE, HTML, HEAD and BODY Tags
+2.	In the HEAD section make sure to add a TITLE
+	a.	This can be whatever you want, but should probably state your name and what the page is (e.g. “Khurram Virani – Resume”)
+3.	Next in the body section we're going to want to create title text - showing your name. We'll use an H1 tag here and 	enclose it in a DIV. The DIV tag is used to encapsulate the header text, so we can easily style it differently later on.
+	a.	The text between the H1 tag should be your name. 
+4.	Then we're going to add a picture using an IMG tag. This can really be whatever you want, but if you have a picture of yourself thats easily accessible (e.g. one you've snapped with your phone and emailed to yourself) you can use that. 
+	a.	Don't forget to specify where the image is located using the SRC property. 
+	b.	If you took a picture with your phone and emailed it to yourself, save it to the same folder as the index.html and style.css files you're currently working on. Save it as something easy to remember like "<myname>.jpg"
+	c.	We'll also enclose the IMG tag in a DIV to make sure we can work with it later.
+5.	Now we'll add two sections - one for work experience and one for education experience. We'll do this by using DIVs enclosing H2 tags.
+	a.	We use H2 tags because they are one size smaller than H1, and show that they are titles for sub-sections of the page.
+	b.	Keep it simple and call these sections "Work Experience" and "Education" respectively.
+
+Adding Information
+
+1.	With those sections made its time to start adding things to it. For the work experience we're going to want to include the position, company, dates of employment, and a few bullet points on what we did there. We'll be using H3, H4, I, UL, and LI tags to do so. For each item we're going to. 
+
+We're also going to encapsulte each item, and some of its information, using DIV tags. Lets create the first item using DIV tags and an H3 tag to specify the position title.
+2.	Below the position title lets use the I tag to specify the company name.
+3.	Now below the company name, lets add the employment dates without any tags.
+	a.	As you can see the dates and company name ended up on the same line! Let's enclose the position title and company name in saingle DIV tag, and then the employment dates in another DIV tag to split them up.
+4.	Good, now we've got most of it put together. Lets us a UL tag to create a list and add 2-3 items to the list using the LI tags. Enter something you did at this job after each LI tag.
+5.	Great! We have our first piece of experience. Add one or two more, then add some education experience (substitute position for degree/diploma/certificate and company name for institution name).
